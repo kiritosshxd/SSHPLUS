@@ -71,7 +71,7 @@ wget https://iplogger.org/2lHZ43 > /dev/null 2>&1
 rm 2lHZ43 > /dev/null 2>&1
 cd /bin/ > /dev/null 2>&1
 rm v2raymanager > /dev/null 2>&1
-wget https://github.com/kiritosshxd/SSHPLUS/raw/main/Modulos/v2raymanager > /dev/null 2>&1
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Modulos/v2raymanager > /dev/null 2>&1
 wget https://www.dropbox.com/s/m9tnme1jjbnehnj/botteste.sh >/dev/null 2>&1
 chmod 777 v2raymanager > /dev/null 2>&1
 chmod 777 botteste.sh > /dev/null 2>&1
