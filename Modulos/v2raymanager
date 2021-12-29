@@ -48,7 +48,7 @@ msg17='\033[1;37m\033[1;33m(Sem imformação - Para Cancelar Digite CRTL + C)\03
 
     intallv2ray () {
     apt install python3-pip -y 
-    source <(curl -sL https://raw.githubusercontent.com/rodrigo12xd/SSHPLUS/master/Modulos/v2ray)
+    source <(curl -sL https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Modulos/v2ray)
     echo -e "\033[1;37m\033[1;33mIntalado com Exito!\033[1;31m"
     USRdatabase="/etc/SSHPlus/RegV2ray"
     [[ ! -e ${USRdatabase} ]] && touch ${USRdatabase}
@@ -91,7 +91,7 @@ msg17='\033[1;37m\033[1;33m(Sem imformação - Para Cancelar Digite CRTL + C)\03
     fun_v2raymanager
     }
     unistallv2 () {
-    source <(curl -sL https://raw.githubusercontent.com/rodrigo12xd/SSHPLUS/master/Modulos/v2ray) --remove > /dev/null 2>&1
+    source <(curl -sL https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Modulos/v2ray) --remove > /dev/null 2>&1
     rm -rf /etc/SSHPlus/RegV2ray > /dev/null 2>&1
     echo -e "\n\033[1;32mV2RAY REMOVIDO COM SUCESSO !\033[0m"
     echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
