@@ -177,8 +177,8 @@ Opcao3 () {
 echo -e "Baixando par de chaves padrão..."
 cd
 rm server.key server.pub
-wget https://raw.githubusercontent.com/leitura/slowdns/main/server.key
-wget https://raw.githubusercontent.com/leitura/slowdns/main/server.pub
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/server.key
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/server.pub
 cp server.key /etc/slowdns/ && cp server.pub /etc/slowdns/
 sleep 1
 echo -e "Download Concluído"
