@@ -74,8 +74,8 @@ touch infons
 echo $nameserver > infons
 set_ns () {
 sleep 1
-wget https://raw.githubusercontent.com/leitura/slowdns/main/ssl/startdns 
-wget https://raw.githubusercontent.com/leitura/slowdns/main/ssl/restartdns
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/ssl/startdns 
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/ssl/restartdns
 chmod +x startdns
 chmod +x restartdns
 sed -i "s;1234;$nameserver;g" /etc/slowdns/startdns > /dev/null 2>&1
@@ -259,8 +259,8 @@ slowdns
 opc_key2 () {
 echo -e "Baixando par de chaves padrão..."
 cd
-wget https://raw.githubusercontent.com/leitura/slowdns/main/server.key
-wget https://raw.githubusercontent.com/leitura/slowdns/main/server.pub
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/server.key
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/server.pub
 sleep 1
 echo -e "Download Concluído"
 sleep 1
