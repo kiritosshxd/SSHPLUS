@@ -141,7 +141,7 @@ echo -ne "\033[1;33mSEU NS:\033[0m " && cat /etc/slowdns/infons
 echo ""
 echo -ne "\033[1;33mSUA KEY:\033[0m " && cat /root/server.pub
 echo ""
-echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://sshplus.net/scripts/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
+echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Install/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
 echo ""
 echo -e "\033[1;33m SUA KEY está salva no arquivo /root/server.pub\033[0m"
 echo -e "\033[1;33mGuarde-a em um local seguro, pode precisar no futuro!\033[0m"
@@ -170,7 +170,7 @@ echo -ne "\033[1;33mSEU NS:\033[0m " && cat /etc/slowdns/infons
 echo ""
 echo -ne "\033[1;33mSUA KEY:\033[0m " && cat /root/server.pub
 echo ""
-echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://sshplus.net/scripts/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
+echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Install/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
 echo ""
 echo -e "\033[1;33m SUA KEY está salva no arquivo /root/server.pub\033[0m"
 echo -e "\033[1;33mGuarde-a em um local seguro, pode precisar no futuro!\033[0m"
@@ -182,8 +182,8 @@ Opcao3 () {
 echo -e "Baixando par de chaves padrão..."
 cd
 rm server.key server.pub
-wget https://raw.githubusercontent.com/leitura/slowdns/main/server.key
-wget https://raw.githubusercontent.com/leitura/slowdns/main/server.pub
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/server.key
+wget https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Slowdns/server.pub
 sleep 1
 echo -e "Download Concluído"
 sleep 1
@@ -203,7 +203,7 @@ echo -ne "\033[1;33mSEU NS:\033[0m " && cat /etc/slowdns/infons
 echo ""
 echo -ne "\033[1;33mSUA KEY:\033[0m " && cat /root/server.pub
 echo ""
-echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://sshplus.net/scripts/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
+echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Install/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
 echo ""
 echo -e "\033[1;33m SUA KEY está salva no arquivo /root/server.pub\033[0m"
 echo -e "\033[1;33mGuarde-a em um local seguro, pode precisar no futuro!\033[0m"
@@ -252,7 +252,7 @@ echo -ne "\033[1;33mSEU NS:\033[0m " && cat /etc/slowdns/infons
 echo ""
 echo -ne "\033[1;33mSUA KEY:\033[0m " && cat /root/server.pub
 echo ""
-echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://sshplus.net/scripts/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
+echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Install/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
 echo ""
 echo -e "\033[1;33m SUA KEY está salva no arquivo /root/server.pub\033[0m"
 echo -e "\033[1;33mGuarde-a em um local seguro, pode precisar no futuro!\033[0m"
@@ -284,7 +284,7 @@ echo -ne "\033[1;33mSEU NS:\033[0m " && cat /etc/slowdns/infons
 echo ""
 echo -ne "\033[1;33mSUA KEY:\033[0m " && cat /root/server.pub
 echo ""
-echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://sshplus.net/scripts/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
+echo -ne "\033[1;33mCOMANDO TERMUX:\033[0m curl -sO https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Install/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
 echo ""
 echo -e "\033[1;33m SUA KEY está salva no arquivo /root/server.pub\033[0m"
 echo -e "\033[1;33mGuarde-a em um local seguro, pode precisar no futuro!\033[0m"
