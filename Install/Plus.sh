@@ -57,6 +57,27 @@ function verif_key2() {
         exit 1
     }
 }
+
+otimize_python() {
+    # INSTALA PYTHON AO PYTHON2
+    apt-get install python -y >/dev/null 2>&1
+    apt-get install python2 -y >/dev/null 2>&1
+    # INSTALA PYTHON3.6 AO PYTHON3.9
+    apt-get install python3.6 -y >/dev/null 2>&1
+    apt-get install python3.7 -y >/dev/null 2>&1
+    apt-get install python3.8 -y >/dev/null 2>&1
+    apt-get install python3.9 -y >/dev/null 2>&1
+    # CRIA ALTERNATIVAS PYTHON
+    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1 >/dev/null 2>&1
+    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 3 >/dev/null 2>&1
+    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2 >/dev/null 2>&1
+    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 4 >/dev/null 2>&1
+    # INSTALA PIP
+    apt install pip -y
+    apt install python3-pip -y
+    # INSTALA SOCAT
+    apt install socat -y
+}
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 tput setaf 7
 tput setab 4
@@ -179,24 +200,11 @@ if [[ "$resposta" = '1' ]]; then
     echo ""
     echo -e "      \033[1;33mOTIMIZANDO PYTHON \033[0m"
     echo ""
-    # INSTALA PYTHON AO PYTHON2
-    apt-get install python -y >/dev/null 2>&1
-    apt-get install python2 -y >/dev/null 2>&1
-    # INSTALA PYTHON3.6 AO PYTHON3.9
-    apt-get install python3.6 -y >/dev/null 2>&1
-    apt-get install python3.7 -y >/dev/null 2>&1
-    apt-get install python3.8 -y >/dev/null 2>&1
-    apt-get install python3.9 -y >/dev/null 2>&1
-    # CRIA ALTERNATIVAS PYTHON
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1 >/dev/null 2>&1
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 3 >/dev/null 2>&1
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2 >/dev/null 2>&1
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 4 >/dev/null 2>&1
-    # INSTALA PIP
-    apt install pip -y
-    apt install python3-pip -y
-    # INSTALA SOCAT
-    apt install socat -y
+    fun_bar 'otimize_python'
+    clear
+    echo ""
+    echo -e "              \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mFINALIZANDO \033[1;33m[\033[1;31m!\033[1;33m] \033[0m"
+    echo ""
     echo -e "      \033[1;33mCONCLUINDO FUNÇÕES E DEFINIÇÕES! \033[0m"
     echo ""
     fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
@@ -303,24 +311,11 @@ elif [[ "$resposta" = '2' ]]; then
     echo ""
     echo -e "      \033[1;33mOTIMIZANDO PYTHON \033[0m"
     echo ""
-    # INSTALA PYTHON AO PYTHON2
-    apt-get install python -y >/dev/null 2>&1
-    apt-get install python2 -y >/dev/null 2>&1
-    # INSTALA PYTHON3.6 AO PYTHON3.9
-    apt-get install python3.6 -y >/dev/null 2>&1
-    apt-get install python3.7 -y >/dev/null 2>&1
-    apt-get install python3.8 -y >/dev/null 2>&1
-    apt-get install python3.9 -y >/dev/null 2>&1
-    # CRIA ALTERNATIVAS PYTHON
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1 >/dev/null 2>&1
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 3 >/dev/null 2>&1
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2 >/dev/null 2>&1
-    update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 4 >/dev/null 2>&1
-    # INSTALA PIP
-    apt install pip -y
-    apt install python3-pip -y
-    # INSTALA SOCAT
-    apt install socat -y
+    fun_bar 'otimize_python'
+    clear
+    echo ""
+    echo -e "              \033[1;33m[\033[1;31m!\033[1;33m] \033[1;32mFINALIZANDO \033[1;33m[\033[1;31m!\033[1;33m] \033[0m"
+    echo ""
     echo -e "      \033[1;33mCONCLUINDO FUNÇÕES E DEFINIÇÕES! \033[0m"
     echo ""
     fun_bar "$_Ink/listARM.sh $_lnk $_Ink $_1nk $key"
