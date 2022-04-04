@@ -80,8 +80,8 @@ echo -ne "\033[1;36mGENERAR AS KEY FREE [N/S]: \033[1;37m"
 read x
 [[ $x = @(n|N) ]] && exit
 echo -ne "\033[1;36mSelecione a Arquitetura da sua VPS: \033[1;37m"
-echo -ne "[1] - x86_64"
-echo -ne "[2] - aarch64(ARM)"
+echo -e "[1] - x86_64"
+echo -e "[2] - aarch64(ARM)"
 read resposta
 if [[ "$resposta" = '1' ]]; then
     sed -i 's/Port 22222/Port 22/g' /etc/ssh/sshd_config >/dev/null 2>&1
