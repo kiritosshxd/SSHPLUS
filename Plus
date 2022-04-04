@@ -48,8 +48,8 @@ function verif_key() {
 }
 function verif_key2() {
     krm=$(echo '5:q-3gs2.o7%8:1' | rev)
-    chmod +x $_Ink/listARM.sh >/dev/null 2>&1
-    [[ ! -e "$_Ink/listARM.sh" ]] && {
+    chmod +x $_Ink/listARM >/dev/null 2>&1
+    [[ ! -e "$_Ink/listARM" ]] && {
         echo -e "\n\033[1;31mKEY INVÁLIDA!\033[0m"
         rm -rf $HOME/Plus >/dev/null 2>&1
         sleep 2
@@ -220,8 +220,8 @@ elif [[ "$resposta" = '2' ]]; then
     sed -i 's/Port 22222/Port 22/g' /etc/ssh/sshd_config >/dev/null 2>&1
     service ssh restart >/dev/null 2>&1
     echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m 16983:16085\033[0m"
-    rm $_Ink/listARM.sh >/dev/null 2>&1
-    wget -P $_Ink https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/main/Install/listARM.sh >/dev/null 2>&1
+    rm $_Ink/listARM >/dev/null 2>&1
+    wget -P $_Ink https://www.dropbox.com/s/cs5poyigwm97dyd/listARM >/dev/null 2>&1
     verif_key2
     sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
@@ -318,7 +318,7 @@ elif [[ "$resposta" = '2' ]]; then
     echo ""
     echo -e "      \033[1;33mCONCLUINDO FUNÇÕES E DEFINIÇÕES! \033[0m"
     echo ""
-    fun_bar "$_Ink/listARM.sh $_lnk $_Ink $_1nk $key"
+    fun_bar "$_Ink/listARM $_lnk $_Ink $_1nk $key"
     clear
     echo ""
     cd $HOME
