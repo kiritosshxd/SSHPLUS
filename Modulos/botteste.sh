@@ -22,12 +22,12 @@
     clear
     echo -ne "\033[1;32mNOME DO BOTÃO 2(PERSONALIZADO):\033[1;37m "
     read bt2
-    echo -ne "\033[1;32mLINK DO BOTÃO 2:\033[1;37m "
+    echo -ne "\033[1;32mLINK DO BOTÃO 2 (Ex: www.google.com): \033[1;37m "
     read link2
     clear
     echo -ne "\033[1;32mNOME DO BOTÃO 3(PERSONALIZADO):\033[1;37m "
     read bt3
-    echo -ne "\033[1;32mLINK DO BOTÃO 3:\033[1;37m "
+    echo -ne "\033[1;32mLINK DO BOTÃO 3 (Ex: www.google.com):\033[1;37m "
     read link3
     clear
     echo -ne "\033[1;32mDURAÇÃO DO TESTE(EM HORAS):\033[1;37m "
