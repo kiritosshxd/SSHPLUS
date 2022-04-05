@@ -41,16 +41,15 @@
     chmod 777 botssh
     echo ""
     sleep 1
-    sed -i "s/!#bvindo#!/$bvindo/g" $HOME/BOT/botssh >/dev/null 2>&1
-    sed -i "s/!#mfinal#!/$mfinal/g" $HOME/BOT/botssh >/dev/null 2>&1
-    sed -i "s/!#bt1#!/$bt1/g" $HOME/BOT/botssh >/dev/null 2>&1
-    sed -i "s/!#bt2#!/$bt2/g" $HOME/BOT/botssh >/dev/null 2>&1
-    sed -i "s/!#link2#!/$link2/g" $HOME/BOT/botssh >/dev/null 2>&1
-    sed -i "s/!#bt3#!/$bt3/g" $HOME/BOT/botssh >/dev/null 2>&1
-    sed -i "s/!#link3#!/$link3/g" $HOME/BOT/botssh >/dev/null 2>&1
-    sed -i "s/!#dtempo#!/$dtempo/g" $HOME/BOT/botssh >/dev/null 2>&1
+    sed -i "s/BEM_VINDO/$bvindo/g" $HOME/BOT/botssh >/dev/null 2>&1
+    sed -i "s/MSG_FINAL/$mfinal/g" $HOME/BOT/botssh >/dev/null 2>&1
+    sed -i "s/BT_INF01/$bt1/g" $HOME/BOT/botssh >/dev/null 2>&1
+    sed -i "s/INF02_BT/$bt2/g" $HOME/BOT/botssh >/dev/null 2>&1
+    sed -i "s/LINK_BT02/$link2/g" $HOME/BOT/botssh >/dev/null 2>&1
+    sed -i "s/BNT03_BT/$bt3/g" $HOME/BOT/botssh >/dev/null 2>&1
+    sed -i "s/LK_BT03/$link3/g" $HOME/BOT/botssh >/dev/null 2>&1
     sleep 1
-    screen -dmS bot_teste ./botssh $token > /dev/null 2>&1
+    screen -dmS bot_teste ./botssh $token $dtempo> /dev/null 2>&1
     clear
     echo "BOT ATIVADO"
     menu
