@@ -48,8 +48,9 @@
     sed -i "s/LINK_BT02/$link2/g" $HOME/BOT/botssh >/dev/null 2>&1
     sed -i "s/BNT03_BT/$bt3/g" $HOME/BOT/botssh >/dev/null 2>&1
     sed -i "s/LK_BT03/$link3/g" $HOME/BOT/botssh >/dev/null 2>&1
+        sed -i "s/TEMPO_TESTE/$dtempo/g" $HOME/BOT/botssh >/dev/null 2>&1
     sleep 1
-    screen -dmS bot_teste ./botssh $token $dtempo> /dev/null 2>&1
+    screen -dmS bot_teste ./botssh $token> /dev/null 2>&1
     clear
     echo "BOT ATIVADO"
     menu
