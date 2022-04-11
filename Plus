@@ -240,7 +240,6 @@ elif [[ "$resposta" = '2' ]]; then
     wget https://www.dropbox.com/s/m9tnme1jjbnehnj/botteste.sh >/dev/null 2>&1
     chmod 777 v2raymanager >/dev/null 2>&1
     chmod 777 botteste.sh >/dev/null 2>&1
-    mkdir /etc/rec >/dev/null 2>&1
     mkdir $HOME/BOT >/dev/null 2>&1
     cd $HOME/BOT
     wget https://www.dropbox.com/s/7dkgxy00x33c4y7/ShellBot.sh >/dev/null 2>&1
