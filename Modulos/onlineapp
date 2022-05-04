@@ -7,7 +7,7 @@ fun_online() {
     _onli=$(($_ons + $_onop + $_ondrp))
     _onlin=$(printf '%-5s' "$_onli")
     CURRENT_ONLINES="$(echo -e "${_onlin}" | sed -e 's/[[:space:]]*$//')"
-    echo "{\"onlines\":\"$CURRENT_ONLINES\",\"limite\":\"1500\"}" > /var/www/html/server/online_app
+    echo "{\"onlines\":\"$CURRENT_ONLINES\",\"limite\":\"2500\"}" > /var/www/html/server/online_app
     echo $CURRENT_ONLINES  > /var/www/html/server/online
 }
 while true; do
