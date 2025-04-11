@@ -13,7 +13,6 @@ fi
 
 chmod +x "$BIN_NAME"
 sudo mv "$BIN_NAME" /usr/local/bin/
-rm dnstt-installer.sh
 
 echo "[✔] Instalação completa! Você pode executar com:"
 echo "     dnstt-manager"
