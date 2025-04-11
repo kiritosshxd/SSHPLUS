@@ -2,7 +2,7 @@
 
 BIN_NAME="dnstt-manager"
 BIN_URL="https://github.com/kiritosshxd/SSHPLUS/raw/refs/heads/main/Slowdns/dnstt-manager"
-
+clear
 echo "[+] Baixando $BIN_NAME..."
 curl -sSL "$BIN_URL" -o "$BIN_NAME"
 
